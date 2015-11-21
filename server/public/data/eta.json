@@ -9,6 +9,8 @@
                 "Tofu Pad Thai"
             ],
             "hotLineBling": false,
+            "imageURL":,
+            "gitHubURL":,
             "favoriteMovies": [
                 {
                     "movieName": "Gattaca",
@@ -43,6 +45,8 @@
                 "eggs"
             ],
             "hotLineBling": false,
+            "imageURL":,
+            "gitHubURL":,
             "favoriteMovies": [
                 {
                     "movieName": "The Fifth Element",
@@ -67,6 +71,8 @@
                 "steak"
             ],
             "hotLineBling": "false",
+            "imageURL": "https://avatars2.githubusercontent.com/u/10503976?v=3&s=460",
+            "gitHubURL": "https://github.com/ADourgarian",
             "favoriteMovies": [
                 {
                     "movieName": "Kung fu Panda",
@@ -89,7 +95,9 @@
                 "potatoes"
             ],
             "hotLineBling": true,
-            "favorite Movies": [
+            "imageURL":,
+            "gitHubURL":,
+            "favoriteMovies": [
                 {
                     "movieName": "Lock, Stock & Two Smoking Barrels",
                     "releaseYear": "1998"
@@ -113,7 +121,9 @@
                 "Pulled Pork"
             ],
             "hotLineBling": false,
-            "favoriteFilms": [
+            "imageURL":,
+            "gitHubURL":,
+            "favoriteMovies": [
                 {
                     "movieName": "Aliens",
                     "releaseYear": "1986"
@@ -133,6 +143,8 @@
                 "cookie butter"
             ],
             "hotLineBling": "true",
+            "imageURL":,
+            "gitHubURL":,
             "favoriteMovies": [
                 {
                     "movieName": "Clueless",
@@ -149,7 +161,16 @@
             "lastName": "Kroening",
             "favoriteFoods": "[spaghetti, Chinese food, strawberries, chocolate]",
             "hotLineBling": "false",
-            "favoriteMovies": "[{movieName:Good Will Hunting, releaseYear: 1997}, {movieName:Rocketman, releaseYear:1997}]"
+            "imageURL":,
+            "gitHubURL":,
+            "favoriteMovies": [{
+                "movieName":"Good Will Hunting",
+                "releaseYear": 1997
+                },
+                {"movieName": "Rocketman",
+                  "releaseYear": 1997
+                }
+              ]
         },
         {
             "firstName": "Chris",
@@ -160,6 +181,8 @@
                 "burritos"
             ],
             "hotLineBling": false,
+            "imageURL":,
+            "gitHubURL":,
             "favoriteMovies": [
                 {
                     "movieName": "Star Wars",
@@ -184,6 +207,8 @@
                 "beef short ribs"
             ],
             "hotLineBling": false,
+            "imageURL":,
+            "gitHubURL":,
             "favoriteMovies": [
                 {
                     "movieName": "Edward Scissor Hands",
@@ -199,7 +224,7 @@
                 },
                 {
                     "movieName": "Star Wars",
-                    "releaseYears": "1977-1983"
+                    "releaseYear": "1977-1983"
                 }
             ]
         },
@@ -212,6 +237,8 @@
                 "Chocolate chip cookies"
             ],
             "hotLineBling": true,
+            "imageURL":"https://avatars2.githubusercontent.com/u/15931802?v=3&s=460",
+            "gitHubURL":"https://github.com/ckroening",
             "favoriteMovies": [
                 {
                     "movieName": "Waking Life",
@@ -236,6 +263,8 @@
                 "sandwiches"
             ],
             "hotLineBling": false,
+            "imageURL":,
+            "gitHubURL":,
             "favoriteMovies": [
                 {
                     "movieName": "Top Gun",
@@ -257,6 +286,8 @@
                 "mango"
             ],
             "hotLineBling": false,
+            "imageURL":,
+            "gitHubURL":,
             "favoriteMovies": [
                 {
                     "movieName": "knocked up",
@@ -273,6 +304,8 @@
             "lastName": "Kirwin",
             "favoriteFood": "['enchiladas', 'pizza', 'Mac and Cheese']",
             "hotLineBling": "false",
+            "imageURL":"https://avatars2.githubusercontent.com/u/11953405?v=3&s=460",
+            "gitHubURL":"https://github.com/BrotherSeamus",
             "favoriteMovies": [
                 {
                     "movieName": "Fifth Element",
@@ -293,6 +326,8 @@
             "lastName": "Crimmings",
             "favoriteFoods": "['cheese', 'thai', 'mexican']",
             "hotLineBling": "false",
+            "imageURL":,
+            "gitHubURL":,
             "favoriteMovies": [
                 {
                     "movieName": "The Big Lebowski",
@@ -319,18 +354,20 @@
                 "soup"
             ],
             "hotLineBling": true,
+            "imageURL":,
+            "gitHubURL":,
             "favoriteMovies": [
                 {
-                    "title": "Hunger Games",
-                    "year": 2012
+                    "movieName": "Hunger Games",
+                    "releaseYear": 2012
                 },
                 {
-                    "title": "Interstellar",
-                    "year": 2014
+                    "movieName": "Interstellar",
+                    "releaseYear": 2014
                 },
                 {
-                    "title": "Princess Mononoke",
-                    "year": 1997
+                    "movieName": "Princess Mononoke",
+                    "releaseYear": 1997
                 }
             ]
         },
@@ -343,14 +380,16 @@
                 "sushi"
             ],
             "hotLineBling": "true",
+            "imageURL":,
+            "gitHubURL":,
             "favoriteMovies": [
                 {
                     "movieName": "Trainwreck",
-                    "releaseDate": "2015"
+                    "releaseYear": "2015"
                 },
                 {
                     "movieName": "Anchorman",
-                    "releaseDate": "2004"
+                    "releaseYear": "2004"
                 }
             ]
         },
@@ -363,6 +402,8 @@
                 "Ceviche"
             ],
             "hotLineBling": true,
+            "imageURL":,
+            "gitHubURL":,
             "favoriteMovies": [
                 {
                     "movieName": "City of God",
@@ -384,6 +425,8 @@
                 "Green Curry"
             ],
             "hotLineBling": "true",
+            "imageURL": "https://avatars2.githubusercontent.com/u/2745303?v=3&s=460",
+            "gitHubURL": "https://github.com/monifrancesca",
             "favoriteMovies": [
                 {
                     "movieName": "Apocolypse Now",
@@ -417,15 +460,20 @@
                 "quacamole"
             ],
             "hotLineBling": true,
+            "imageURL":,
+            "gitHubURL":,
             "favoriteMovies": [
                 {
-                    "movie1": "300"
+                    "movieName": "300",
+                    "releaseYear": 2006
                 },
                 {
-                    "movie2": "The Town"
+                    "movieName": "The Town",
+                    "releaseYear": 2010
                 },
                 {
-                    "movie3": "GrandmasBoy"
+                    "movieName": "GrandmasBoy",
+                    "releaseYear": 2006
                 }
             ]
         },
@@ -439,6 +487,8 @@
                 "Mac & Dogs (when I'm lazy)"
             ],
             "hotLineBling": "False",
+            "imageURL":,
+            "gitHubURL":,
             "favoriteMovies": [
                 {
                     "movieName": "Suspiria",
@@ -467,18 +517,20 @@
                 "Mock Duck With Rice From Quang"
             ],
             "hotLineBline": true,
-            "favouriteMovies": [
+            "imageURL":"https://avatars3.githubusercontent.com/u/11513416?v=3&s=460",
+            "gitHubURL":"https://github.com/wallacewylie",
+            "favoriteMovies": [
                 {
-                    "i": "Wings Of Desire",
-                    "ii": 1987
+                    "movieName": "Wings Of Desire",
+                    "releaseYear": 1987
                 },
                 {
-                    "i": "Crimes And Misdemeanors",
-                    "ii": 1989
+                    "movieName": "Crimes And Misdemeanors",
+                    "releaseYear": 1989
                 },
                 {
-                    "i": "Local Hero",
-                    "ii": 1983
+                    "movieName": "Local Hero",
+                    "releaseYear": 1983
                 }
             ]
         }

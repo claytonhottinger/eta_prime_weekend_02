@@ -2,13 +2,25 @@
 <html>
     <head lang="en">
         <meta charset="UTF-8">
-        <title></title>
+        <title>Cohort Viewer</title>
         <link rel="stylesheet" href="/styles/style.css">
-	      <script type="text/javascript" src="/vendors/handlebars.js"></script>
+        <script type="text/javascript" src="/vendors/jquery.min.js"></script>
+	      <script type="text/javascript" src="/vendors/handlebars-v4.0.5.js"></script>
         <script type="text/javascript" src="/scripts/app.js"></script>
     </head>
     <body>
-
+      <button class= "prev">Previous Student</button>
+      <section>
+        <script id="name" type="text/x-handlebars-template">
+          <h1 class="{{name.lastName}}">{{name.firstName}} {{name.lastName}}</h1>
+          <ul>
+            {{#each name.favoriteMovies}}
+              <li>{{this.movieName}}({{this.releaseYear}})</li>
+            {{/each}}
+          </ul>
+        </script>
+      </section>
+      <button class= "next">Next Student</button>
     </body>
 
 </html>
