@@ -12,7 +12,7 @@ $( function() {
 			url: "/data/eta.json"
 		} ).done( function( data ) {
 			for ( var i = 0; i < data.eta.length; i++ ) {
-				if ( data.eta[ i ].lastName == $( "h1" ).attr( "class" ) ) {
+				if ( data.eta[ i ].lastName == $( "a" ).attr( "class" ) ) {
 					if ( i + 1 == data.eta.length ) {
 						var newPerson = data.eta[ 0 ];
 					} else {
@@ -30,7 +30,7 @@ $( function() {
 			url: "/data/eta.json"
 		} ).done( function( data ) {
 			for ( var i = 0; i < data.eta.length; i++ ) {
-				if ( data.eta[ i ].lastName == $( "h1" ).attr( "class" ) ) {
+				if ( data.eta[ i ].lastName == $( "a" ).attr( "class" ) ) {
 					if ( i == 0 ) {
 						var newPerson = data.eta[ data.eta.length - 1 ];
 					} else {

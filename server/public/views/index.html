@@ -9,19 +9,25 @@
         <script type="text/javascript" src="/scripts/app.js"></script>
     </head>
     <body>
-      <button class= "prev">Previous Student</button>
+      <button class= "prev">Previous <br> Student</button>
       <section>
         <script id="name" type="text/x-handlebars-template">
-          <h1 class="{{name.lastName}}">{{name.firstName}} {{name.lastName}}</h1>
-          <a href= "{{name.gitHubURL}}" style="background-image:{{name.imageURL}}"></a>
-          <ul>
-            {{#each name.favoriteMovies}}
-              <li>{{this.movieName}}({{this.releaseYear}})</li>
-            {{/each}}
-          </ul>
+          <div class="text">
+            <a href= "{{name.gitHubURL}}" class="{{name.lastName}}">{{name.firstName}} {{name.lastName}}</a>
+         </div>
+          <br>
+          <img src= "{{name.imageURL}}"></img>
+          <div class="text">
+            <h2>Favorite Movies</h2>
+            <ul>
+              {{#each name.favoriteMovies}}
+                <li>{{this.movieName}}({{this.releaseYear}})</li>
+              {{/each}}
+            </ul>
+          </div>
         </script>
       </section>
-      <button class= "next">Next Student</button>
+      <button class= "next">Next<br> Student</button>
     </body>
 
 </html>

@@ -1,6 +1,38 @@
 body {
+	background-color: #3385ff;
 	width: 100%;
 	display: inline-block;
+}
+
+section {
+
+	width: 70%;
+	margin: 0;
+	float: left;
+}
+
+img {
+	border: 3px solid #ffd11a;
+	border-radius: 50%;
+	width: 460px;
+	margin: 0 17%;
+}
+
+a {
+	background-colr: #ffd11a;
+	display: block;
+	float: clear;
+	font-size: 35px;
+	text-align: center;
+}
+
+.text {
+	background-color: #ffd11a;
+	border-radius: 30%;
+}
+
+h2 {
+	text-align: center;
 }
 
 li {
@@ -8,11 +40,15 @@ li {
 	margin: 0 10px;
 }
 
-.prev {
-	float: left;
+button {
+	border: 1px solid #ffd11a;
+	border-radius: 50%;
+	margin-top: 200px;
+	height: 100px;
+	font-size: 20px;
 }
 
-section {
-	width: 70%;
-	margin: 0;
+.prev {
+	float: left;
+	margin: 200px 0 0 20px;
 }
