@@ -9,7 +9,11 @@
         <script type="text/javascript" src="/scripts/app.js"></script>
     </head>
     <body>
-      <button class= "prev">Previous <br> Student</button>
+      <div class = "prev button">
+        <script id="prev" type="text/x-handlebars-template">
+          <button class= "prev">{{button.firstName}} <br> Previous</button>
+        </script>
+      </div>
       <section>
         <script id="name" type="text/x-handlebars-template">
           <div class="text">
@@ -27,7 +31,11 @@
           </div>
         </script>
       </section>
-      <button class= "next">Next<br> Student</button>
+      <div class = "next button">
+        <script id="next" type="text/x-handlebars-template">
+          <button >{{button.firstName}}<br> Next</button>
+        </script>
+      </div>
     </body>
 
 </html>
