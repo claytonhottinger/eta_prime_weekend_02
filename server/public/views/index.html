@@ -13,6 +13,7 @@
       <section>
         <script id="name" type="text/x-handlebars-template">
           <h1 class="{{name.lastName}}">{{name.firstName}} {{name.lastName}}</h1>
+          <a href= "{{name.gitHubURL}}" style="background-image:{{name.imageURL}}"></a>
           <ul>
             {{#each name.favoriteMovies}}
               <li>{{this.movieName}}({{this.releaseYear}})</li>
