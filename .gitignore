@@ -1,3 +1,5 @@
 node_modules/
-.idea/
+.idea
+server/javascript-style-guide/
+javascript-style-guide/
 .DS_Store
